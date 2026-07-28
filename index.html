@@ -41,31 +41,6 @@
 <footer>
 © 2026 FF Sensitivity Pro
 </footer>
-
-<script>
-function generate(){
-
-let ram=document.getElementById("ram").value;
-
-let text="";
-
-if(ram=="4GB"){
-text="<b>General:</b>180<br><b>Red Dot:</b>150<br><b>2X Scope:</b>130<br><b>4X Scope:</b>110<br><b>Sniper:</b>60<br><b>Free Look:</b>67";
-}
-
-else if(ram=="6GB"){
-text="<b>General:</b>195<br><b>Red Dot:</b>170<br><b>2X Scope:</b>150<br><b>4X Scope:</b>130<br><b>Sniper:</b>65<br><b>Free Look:</b>67";
-}
-
-else{
-text="<b>General:</b>200<br><b>Red Dot:</b>180<br><b>2X Scope:</b>160<br><b>4X Scope:</b>140<br><b>Sniper:</b>70<br><b>Free Look:</b>67";
-}
-
-document.getElementById("result").style.display="block";
-document.getElementById("result").innerHTML="<h3>Recommended Settings</h3><br>"+text;
-
-}
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
